@@ -1,0 +1,81 @@
+/* Кнопки */
+
+.ui-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ui-button--primary {
+  background: #2563eb;
+  color: white;
+}
+
+.ui-button--primary:hover {
+  background: #1d4ed8;
+}
+
+.ui-button--secondary {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.ui-button--secondary:hover {
+  background: #cbd5e1;
+}
+
+.ui-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Поля ввода */
+
+.ui-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ui-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ui-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+  color: #1e293b;
+  font-size: 15px;
+}
+
+.ui-input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+}
+
+.ui-input[aria-invalid="true"] {
+  border-color: #dc2626;
+}
+
+.ui-error {
+  color: #dc2626;
+  font-size: 13px;
+}
+
+/* Карточки */
+
+.ui-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
